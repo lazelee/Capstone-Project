@@ -5,7 +5,7 @@ In the MGTC28 Capstone Project, students will work on real datasets to get an ex
 For this project, we need the following data:
 1. ***Toronto City data that contains Borough, Neighbourhoods along with there latitudes and longitudes***
 * **Data Source:** https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
-* **Description:** This Wikipedia page contain all the information we need to explore and cluster the neighborhoods in Toronto
+* **Description:** This Wikipedia page contain all the information we need to explore and cluster the neighbourhoods in Toronto
 2. ***Geographical Location data using Geocoder Package***
 * **Data Source:** https://cocl.us/Geospatial_data
 * **Description:** The second source of data provided us with the Geographical coordinates of the neighbourhoods with the respective Postal Codes.
@@ -14,25 +14,27 @@ For this project, we need the following data:
 * **Description:** By scraping the 2021 census population, we can specify the postal code to obtain data about a particular neighbourhood.
 4. ***Venue Data using Foursquare API***
 * **Data Source:** https://foursquare.com/developers/apps
-* **Description:** From Foursquare API we can get the name,category,latitude,longitude for each venue.
+* **Description:** From Foursquare API we can get the name, category, latitude, and longitude for each venue.
 
 
 # Pest Control
 ### Part 1
 
-### Part 3: Exploring Competitors and Commercial Demographics
-The Foursquare API allow you to search places, and discover businesses within certain distance to an address.  You can also get reviews and other information related to the places. Use Foursquare API to search places, discover businesses within certain distance to an address, see their reviews and other information related to the places.
+### Part 2
 
-However, due to limited competitor data availability from the Foursquare API, we adopted an alternative approach focusing on commercial demographics. Specifically, we analyzed the density of Fast Food Restaurants in Toronto neighborhoods as a proxy for commercial activity and potential consumer demand.
+### Part 3: Exploring Competitors and Commercial Demographics
+Our first approach used Foursquare to get all the locations of our competitors, including their ratings, pricing, and foot traffic. However, Foursquare did not have the data available in their database. Therefore, we adopted an alternative approach focusing on our commercial demographics to further support our choice of neighbourhood. Specifically, we analyzed the density of Fast Food Restaurants in Toronto neighbourhoods as a proxy for commercial activity and potential consumer demand.
 
 #### Steps Taken:
 1) Data Collection:
   - Extracted Fast Food Restaurant data from the Foursquare API and visualized their geographical distribution.
 2) Analysis:
-  - Applied K-Means clustering to group neighborhoods based on the density of fast-food venues.
-  - Identified the ideal cluster as one with the highest neighborhood count and average number of fast-food restaurants.
+  - Applied Elbow Method of K-Means clustering to group neighbourhoods based on the density of fast-food venues.
+  - Identified the ideal cluster as one with the highest restaurant count and highest average number of fast-food restaurants.
+  - Applied Elbow Method of K-Means clustering to group neighbourhoods based on the density of pest control venues.
+  - Identified the ideal cluster as one with the highest neighbourhood count and lowest average number of pest control venues.
 3) Comparison with Residential Demographics:
-  - Compared the selected commercial neighborhoods to the top residential neighborhoods from Part 2 to finalize our recommendation.
+  - Compared the ideal cluster to the top residential neighbourhoods from Part 2 to finalize our recommendation.
 
-This approach allowed us to integrate residential and commercial considerations in our business decision-making, ensuring a broader consumer base for our pest control business.
+This approach allowed us to integrate residential, commercial, and competitive considerations in our business decision-making, ensuring a broader consumer base for our pest control business.
 
