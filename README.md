@@ -18,11 +18,11 @@ For this project, we need the following data:
 
 
 # Pest Control
-### Part 1
+## Part 1
 
-### Part 2
+## Part 2
 
-### Part 3: Exploring Competitors and Commercial Demographics
+## Part 3: Exploring Competitors and Commercial Demographics
 Our first approach used Foursquare to get all the locations of our competitors, including their ratings, pricing, and foot traffic. However, Foursquare did not have the data available in their database. Therefore, we adopted an alternative approach focusing on our commercial demographics to further support our choice of neighbourhood. Specifically, we analyzed the density of Fast Food Restaurants in Toronto neighbourhoods as a proxy for commercial activity and potential consumer demand.
 
 #### Steps Taken:
