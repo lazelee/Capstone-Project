@@ -9,12 +9,12 @@ The Foursquare API allow you to search places, and discover businesses within ce
 However, due to limited competitor data availability from the Foursquare API, we adopted an alternative approach focusing on commercial demographics. Specifically, we analyzed the density of Fast Food Restaurants in Toronto neighborhoods as a proxy for commercial activity and potential consumer demand.
 
 # Steps Taken:
-  Data Collection:
+Data Collection:
   - Extracted Fast Food Restaurant data from the Foursquare API and visualized their geographical distribution.
-  Clustering Analysis:
+Clustering Analysis:
   - Applied K-Means clustering to group neighborhoods based on the density of fast-food venues.
   - Identified the ideal cluster as one with the highest neighborhood count and average number of fast-food restaurants.
-  Comparison with Residential Demographics:
+Comparison with Residential Demographics:
   - Compared the selected commercial neighborhoods to the top residential neighborhoods from Part 2 to finalize our recommendation.
 
 This approach allowed us to integrate residential and commercial considerations in our business decision-making, ensuring a broader consumer base for our pest control business.
