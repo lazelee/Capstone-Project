@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='cluster2' inline='true' name='federated.1rykh0l0smhlcn1fe8h9p1y4hg3x' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='cluster2' name='textscan.0v4m98x0atud8c143f86k1ap4i09'>
+            <connection class='textscan' directory='/Users/caleblee/Desktop' filename='cluster2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0v4m98x0atud8c143f86k1ap4i09' name='cluster2.csv' table='[cluster2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='Neighbourhood' ordinal='0' />
+            <column datatype='real' name='Fast Food Restaurant' ordinal='1' />
+            <column datatype='integer' name='Cluster Labels' ordinal='2' />
+            <column datatype='string' name='Postalcode' ordinal='3' />
+            <column datatype='real' name='Neighbourhood Latitude' ordinal='4' />
+            <column datatype='real' name='Neighbourhood Longitude' ordinal='5' />
+            <column datatype='string' name='Venue' ordinal='6' />
+            <column datatype='string' name='fsq_id' ordinal='7' />
+            <column datatype='real' name='Venue Latitude' ordinal='8' />
+            <column datatype='real' name='Venue Longitude' ordinal='9' />
+            <column datatype='string' name='Venue Category' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0v4m98x0atud8c143f86k1ap4i09' name='cluster2.csv' table='[cluster2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='Neighbourhood' ordinal='0' />
+            <column datatype='real' name='Fast Food Restaurant' ordinal='1' />
+            <column datatype='integer' name='Cluster Labels' ordinal='2' />
+            <column datatype='string' name='Postalcode' ordinal='3' />
+            <column datatype='real' name='Neighbourhood Latitude' ordinal='4' />
+            <column datatype='real' name='Neighbourhood Longitude' ordinal='5' />
+            <column datatype='string' name='Venue' ordinal='6' />
+            <column datatype='string' name='fsq_id' ordinal='7' />
+            <column datatype='real' name='Venue Latitude' ordinal='8' />
+            <column datatype='real' name='Venue Longitude' ordinal='9' />
+            <column datatype='string' name='Venue Category' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neighbourhood</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Neighbourhood]</local-name>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias>Neighbourhood</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fast Food Restaurant</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fast Food Restaurant]</local-name>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias>Fast Food Restaurant</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cluster Labels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cluster Labels]</local-name>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias>Cluster Labels</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Postalcode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Postalcode]</local-name>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias>Postalcode</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neighbourhood Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neighbourhood Latitude]</local-name>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias>Neighbourhood Latitude</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neighbourhood Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neighbourhood Longitude]</local-name>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias>Neighbourhood Longitude</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venue</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Venue]</local-name>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias>Venue</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fsq_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[fsq_id]</local-name>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias>fsq_id</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venue Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Venue Latitude]</local-name>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias>Venue Latitude</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venue Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Venue Longitude]</local-name>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias>Venue Longitude</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venue Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Venue Category]</local-name>
+            <parent-name>[cluster2.csv]</parent-name>
+            <remote-alias>Venue Category</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Avg' datatype='real' name='[Neighbourhood Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Neighbourhood Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='string' name='[Postalcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Venue Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Venue Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='cluster2.csv' datatype='table' name='[__tableau_internal_object_id__].[cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089]' role='measure' type='quantitative' />
+      <column caption='Fsq Id' datatype='string' name='[fsq_id]' role='dimension' type='nominal' />
+      <column-instance column='[Postalcode]' derivation='None' name='[none:Postalcode:nk]' pivot='key' type='nominal' />
+      <group caption='Postalcode Set' name='[Postalcode Set]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M1B&quot;' />
+          <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M6H&quot;' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='cluster2.csv' id='cluster2.csv_7DDF0AFD62004D56B2E284A7549F1089'>
+            <properties context=''>
+              <relation connection='textscan.0v4m98x0atud8c143f86k1ap4i09' name='cluster2.csv' table='[cluster2#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='Neighbourhood' ordinal='0' />
+                  <column datatype='real' name='Fast Food Restaurant' ordinal='1' />
+                  <column datatype='integer' name='Cluster Labels' ordinal='2' />
+                  <column datatype='string' name='Postalcode' ordinal='3' />
+                  <column datatype='real' name='Neighbourhood Latitude' ordinal='4' />
+                  <column datatype='real' name='Neighbourhood Longitude' ordinal='5' />
+                  <column datatype='string' name='Venue' ordinal='6' />
+                  <column datatype='string' name='fsq_id' ordinal='7' />
+                  <column datatype='real' name='Venue Latitude' ordinal='8' />
+                  <column datatype='real' name='Venue Longitude' ordinal='9' />
+                  <column datatype='string' name='Venue Category' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Fast Food Restaurants - Cluster 2</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cluster2' name='federated.1rykh0l0smhlcn1fe8h9p1y4hg3x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rykh0l0smhlcn1fe8h9p1y4hg3x'>
+            <column datatype='string' name='[Postalcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+            <column datatype='string' name='[Venue]' role='dimension' type='nominal' />
+            <column-instance column='[Venue]' derivation='CountD' name='[ctd:Venue:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Postalcode Set]' derivation='InOut' name='[io:Postalcode Set:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Postalcode]' derivation='None' name='[none:Postalcode:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[none:Postalcode:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M1B&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M1C&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M1M&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M1N&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M1P&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M2M&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M3J&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M4A&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M4G&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M4K&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M4M&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M4P&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M4R&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M4S&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M4T&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M5N&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M5P&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M5V&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M6H&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M6J&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M6K&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M6P&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M6R&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M8V&quot;' />
+              <groupfilter function='member' level='[none:Postalcode:nk]' member='&quot;M9W&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[none:Postalcode:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[io:Postalcode Set:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[ctd:Venue:qk]</rows>
+        <cols>[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[none:Postalcode:nk]</cols>
+      </table>
+      <simple-id uuid='{0928763F-B5EF-4F5C-8026-9E8F19CEC2D4}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[none:Postalcode:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[io:Postalcode Set:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[io:Postalcode Set:nk]</field>
+            <field>[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[none:Neighbourhood:nk]</field>
+            <field>[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[none:Postalcode:nk]</field>
+            <field>[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[none:Venue Category:nk]</field>
+            <field>[federated.1rykh0l0smhlcn1fe8h9p1y4hg3x].[none:Venue:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{00BBEED6-663C-4AE6-BFC4-40FFD61C7696}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
