@@ -21,6 +21,40 @@ For this project, we need the following data:
 ## Part 1
 
 ## Part 2
+Objective
+Analyze Toronto’s 2021 Census data to identify neighborhoods best suited for a new local business based on population, income, housing, and professional demographics.
+
+#### Steps Taken
+1) Data Collection
+Scraped data for all Toronto postal codes using BeautifulSoup and urllib.
+Key data points:
+  - Population size
+  - Median Income
+  - Number of older housing units
+  - Number of apartment units
+  - Number of health professionals
+
+2) Data Processing
+Cleaned and normalized data for comparability using pandas.
+Calculated a Composite Score weighted as follows:
+  - 30%: Older housing units
+  - 25%: Population size
+  - 20%: Apartment units
+  - 15%: Median income
+  - 10%: Health professionals
+
+3) Results
+Ranked neighborhoods by composite score.
+Identified the top 5 neighborhoods for business potential.
+
+4)Deliverables
+Raw Data: toronto_neighbourhood_population_income_old_housings_apartments_health.csv
+Processed Data: normalized_scores.csv (with rankings).
+How to Use
+Run demographics_scraper.py to scrape or update data.
+Use normalized_scores.csv to identify top-ranked neighborhoods.
+Adjust scoring weights to prioritize specific metrics if needed.
+
 
 ## Part 3: Exploring Competitors and Commercial Demographics
 Our first approach used Foursquare to get all the locations of our competitors, including their ratings, pricing, and foot traffic. However, Foursquare did not have the data available in their database. Therefore, we adopted an alternative approach focusing on our commercial demographics to further support our choice of neighbourhood. Specifically, we analyzed the density of Fast Food Restaurants in Toronto neighbourhoods as a proxy for commercial activity and potential consumer demand.
