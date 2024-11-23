@@ -21,7 +21,7 @@ For this project, we need the following data:
 ## Part 1
 
 ## Part 2
-Objective
+Objective:
 Analyze Toronto’s 2021 Census data to identify neighborhoods best suited for a new local business based on population, income, housing, and professional demographics.
 
 #### Steps Taken
@@ -47,7 +47,7 @@ Calculated a Composite Score weighted as follows:
 Ranked neighborhoods by composite score.
 Identified the top 5 neighborhoods for business potential.
 
-4)Deliverables
+4) Deliverables
 Raw Data: toronto_neighbourhood_population_income_old_housings_apartments_health.csv
 Processed Data: normalized_scores.csv (with rankings).
 How to Use
