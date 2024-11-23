@@ -48,12 +48,7 @@ Ranked neighborhoods by composite score.
 Identified the top 5 neighborhoods for business potential.
 
 4) Deliverables
-Raw Data: toronto_neighbourhood_population_income_old_housings_apartments_health.csv
-
-5) How to Use
-Run demographics_scraper.py to scrape or update data.
-Use normalized_scores.csv to identify top-ranked neighborhoods.
-Adjust scoring weights to prioritize specific metrics if needed.
+toronto_neighbourhood_population_income_old_housings_apartments_health.cs
 
 
 ## Part 3: Exploring Competitors and Commercial Demographics
