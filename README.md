@@ -22,7 +22,7 @@ For this project, we need the following data:
 
 ## Part 2
 Objective:
-Analyze Toronto’s 2021 Census data to identify neighborhoods best suited for a new local business based on population, income, housing, and professional demographics.
+Analyze Toronto’s 2021 Census data to identify neighborhoods best suited for a new pest control business based on population, income, old housing, and professional demographics.
 
 #### Steps Taken
 1) Data Collection
@@ -49,8 +49,8 @@ Identified the top 5 neighborhoods for business potential.
 
 4) Deliverables
 Raw Data: toronto_neighbourhood_population_income_old_housings_apartments_health.csv
-Processed Data: normalized_scores.csv (with rankings).
-How to Use
+
+5) How to Use
 Run demographics_scraper.py to scrape or update data.
 Use normalized_scores.csv to identify top-ranked neighborhoods.
 Adjust scoring weights to prioritize specific metrics if needed.
