@@ -19,6 +19,7 @@ For this project, we need the following data:
 
 # Pest Control
 ## Part 1
+To decide what business we wanted to enter, we looked through IBIS World and looked at different industries in Canada.  
 
 ## Part 2
 Objective:
