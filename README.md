@@ -19,7 +19,7 @@ For this project, we need the following data:
 
 # Pest Control
 ## Part 1
-To decide what business we wanted to enter, we looked through IBIS World and looked at different industries in Canada.  
+To decide what business we wanted to enter, we looked through IBIS World and looked at different industries in Canada.  At first we were looking at more traditional bigger industries like airlines and sporting goods but landed on a very different and unique page: Pest Control.  At first we thought of it more as a joke but as we looked through the report we saw some good signs of entering this market, such as increasing revenues every year (even throughout COVID), low volatility and and above GDP growth.  The life cycle of pest control is at an early stage of quantity growth, and the barriers to enter is moderate meaning that it might be hard for us to enter at first but also there is less competitors later if we enter.  Another main factor is that there is no big market leader so that the market is very competitive and we are able to gain market share easily.  One disadvantage to this business is that there is little differentiation between other businesses, making it harder to charge a more premium price. 
 
 ## Part 2
 Objective:
