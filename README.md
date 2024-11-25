@@ -27,16 +27,16 @@ Objective:
 
 #### Steps Taken:
 1) Data Collection:
-  - Scraped demographic data for Toronto postal codes using BeautifulSoup and urllib.
-  - Collected key data points:
+Scraped demographic data for Toronto postal codes using BeautifulSoup and urllib.
+Collected key data points:
   - Population size
   - Median Income
   - Number of older housing units
   - Number of apartment units
   - Number of health professionals
 2) Analysis:
-  - Normalized data using min-max scaling for comparability.
-  - Applied a weighted Composite Scoring system to rank neighborhoods:
+Normalized data using min-max scaling for comparability.
+Applied a weighted Composite Scoring system to rank neighborhoods:
   - 30%: Older housing units
   - 25%: Population size
   - 20%: Apartment units
