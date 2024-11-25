@@ -22,34 +22,29 @@ For this project, we need the following data:
 To decide what business we wanted to enter, we looked through IBIS World and looked at different industries in Canada.  At first we were looking at more traditional bigger industries like airlines and sporting goods but landed on a very different and unique page: Pest Control.  At first we thought of it more as a joke but as we looked through the report we saw some good signs of entering this market, such as increasing revenues every year (even throughout COVID), low volatility and and above GDP growth.  The life cycle of pest control is at an early stage of quantity growth, and the barriers to enter is moderate meaning that it might be hard for us to enter at first but also there is less competitors later if we enter.  Another main factor is that there is no big market leader so that the market is very competitive and we are able to gain market share easily.  One disadvantage to this business is that there is little differentiation between other businesses, making it harder to charge a more premium price. 
 
 ## Part 2
-Objective:
-Analyze Toronto’s 2021 Census data to identify neighborhoods best suited for a new pest control business based on population, income, old housing, and professional demographics.
+Objective
+To analyze demographic data from the 2021 Canadian Census to identify neighborhoods in Toronto with high potential for a new local business. Key metrics include population, income, housing characteristics, and professional demographics.
 
-#### Steps Taken
-1) Data Collection
-Scraped data for all Toronto postal codes using BeautifulSoup and urllib.
-Key data points:
+#### Steps Taken:
+1) Data Collection:
+  - Scraped demographic data for Toronto postal codes using BeautifulSoup and urllib.
+  - Collected key data points:
   - Population size
   - Median Income
   - Number of older housing units
   - Number of apartment units
   - Number of health professionals
+2) Analysis:
+  -Normalized data using min-max scaling for comparability.
+  -Applied a weighted Composite Scoring system to rank neighborhoods:
+  -30%: Older housing units
+  -25%: Population size
+  -20%: Apartment units
+  -15%: Median income
+  -10%: Health professionals
 
-2) Data Processing
-Cleaned and normalized data for comparability using pandas.
-Calculated a Composite Score weighted as follows:
-  - 30%: Older housing units
-  - 25%: Population size
-  - 20%: Apartment units
-  - 15%: Median income
-  - 10%: Health professionals
+Ranked neighborhoods based on composite scores to identify the top 5 most suitable areas.
 
-3) Results
-Ranked neighborhoods by composite score.
-Identified the top 5 neighborhoods for business potential.
-
-4) Deliverables
-toronto_neighbourhood_population_income_old_housings_apartments_health.cs
 
 
 ## Part 3: Exploring Competitors and Commercial Demographics
