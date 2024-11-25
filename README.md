@@ -35,13 +35,13 @@ To analyze demographic data from the 2021 Canadian Census to identify neighborho
   - Number of apartment units
   - Number of health professionals
 2) Analysis:
-  -Normalized data using min-max scaling for comparability.
-  -Applied a weighted Composite Scoring system to rank neighborhoods:
-  -30%: Older housing units
-  -25%: Population size
-  -20%: Apartment units
-  -15%: Median income
-  -10%: Health professionals
+  - Normalized data using min-max scaling for comparability.
+  - Applied a weighted Composite Scoring system to rank neighborhoods:
+  - 30%: Older housing units
+  - 25%: Population size
+  - 20%: Apartment units
+  - 15%: Median income
+  - 10%: Health professionals
 
 Ranked neighborhoods based on composite scores to identify the top 5 most suitable areas.
 
