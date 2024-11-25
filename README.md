@@ -23,7 +23,7 @@ To decide what business we wanted to enter, we looked through IBIS World and loo
 
 ## Part 2
 Objective:
-To analyze demographic data from the 2021 Canadian Census to identify neighborhoods in Toronto with high potential for a new local business. Key metrics include population, income, housing characteristics, and professional demographics.
+- To analyze demographic data from the 2021 Canadian Census to identify neighborhoods in Toronto with high potential for a new pest control business. Key metrics include population, income, housing characteristics, and professional demographics.
 
 #### Steps Taken:
 1) Data Collection:
