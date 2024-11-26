@@ -58,8 +58,8 @@ Our first approach used Foursquare to get all the locations of our competitors, 
   - Identified the ideal cluster as one with the highest restaurant count and highest average number of fast-food restaurants.
   - Applied Elbow Method of K-Means clustering to group neighbourhoods based on the density of pest control venues.
   - Identified the ideal cluster as one with the highest neighbourhood count and lowest average number of pest control venues.
-3) Comparison with Residential Demographics:
-  - Compared the ideal cluster to the top residential neighbourhoods from Part 2 to finalize our recommendation.
 
 This approach allowed us to integrate residential, commercial, and competitive considerations in our business decision-making, ensuring a broader consumer base for our pest control business.
 
+## Conclusive Approach
+To conclude on a best neighbourhood to open a pest control business, we compared our top neighbourhoods with the highest composite score (see Part 2) with our best performing clusters (see Part 3). The neighbourhood that stood out was MH6, specifically Dufferin, which was a neighbourhood within both best performing clusters and had the highest composite score.
